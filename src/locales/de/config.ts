@@ -2,6 +2,7 @@ import { ability } from "./ability";
 import { abilityTriggers } from "./ability-trigger";
 import { battle } from "./battle";
 import { commandUiHandler } from "./command-ui-handler";
+import { dialogue } from "./dialogue";
 import { egg } from "./egg";
 import { fightUiHandler } from "./fight-ui-handler";
 import { growth } from "./growth";
@@ -24,6 +25,7 @@ export const deConfig = {
     abilityTriggers: abilityTriggers,
     battle: battle,
     commandUiHandler: commandUiHandler,
+    dialogue: dialogue,
     egg: egg,
     fightUiHandler: fightUiHandler,
     menuUiHandler: menuUiHandler,
